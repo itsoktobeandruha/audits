@@ -1,0 +1,8 @@
+﻿  Source.c
+C:\Users\stranger\Desktop\2aud3aud9aud\2-3-9-auditorki-done\9auditory\Project1\Project1\Source.c(56,23): warning C4047: функция: "LPWSTR" отличается по уровням косвенного обращения от "LPWSTR [50]"
+C:\Users\stranger\Desktop\2aud3aud9aud\2-3-9-auditorki-done\9auditory\Project1\Project1\Source.c(56,23): warning C4024: GetUserNameW: различные типы для формального и фактического параметров 1
+C:\Users\stranger\Desktop\2aud3aud9aud\2-3-9-auditorki-done\9auditory\Project1\Project1\Source.c(57,10): warning C4477: "wprintf": в строке форматирования "%s" требуется аргумент типа "unsigned short *", но вариативный аргумент "1" имеет тип "LPWSTR *"
+C:\Users\stranger\Desktop\2aud3aud9aud\2-3-9-auditorki-done\9auditory\Project1\Project1\Source.c(58,27): warning C4047: функция: "LPWSTR" отличается по уровням косвенного обращения от "LPWSTR [50]"
+C:\Users\stranger\Desktop\2aud3aud9aud\2-3-9-auditorki-done\9auditory\Project1\Project1\Source.c(58,27): warning C4024: GetComputerNameW: различные типы для формального и фактического параметров 1
+C:\Users\stranger\Desktop\2aud3aud9aud\2-3-9-auditorki-done\9auditory\Project1\Project1\Source.c(59,10): warning C4477: "wprintf": в строке форматирования "%s" требуется аргумент типа "unsigned short *", но вариативный аргумент "1" имеет тип "LPWSTR *"
+  Project1.vcxproj -> C:\Users\stranger\Desktop\2aud3aud9aud\2-3-9-auditorki-done\9auditory\Project1\Debug\Project1.exe
