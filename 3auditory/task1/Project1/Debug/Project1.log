@@ -1,1 +1,3 @@
-﻿  Project1.vcxproj -> C:\Users\stranger\Desktop\2aud3aud9aud\2-3-9-auditorki-done\3auditory\task1\Debug\Project1.exe
+﻿  Source.c
+C:\Users\stranger\Desktop\audits\3auditory\task1\Project1\Source.c(15,14): error C2109: для индекса требуется массив или указатель
+C:\Users\stranger\Desktop\audits\3auditory\task1\Project1\Source.c(22,33): error C2109: для индекса требуется массив или указатель

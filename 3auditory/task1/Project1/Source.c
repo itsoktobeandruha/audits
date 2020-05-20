@@ -1,20 +1,12 @@
 #include <stdio.h>
 #include <Windows.h>
 
-int main()
+void uniquenumbers(int mass)
 {
-	printf("type ammount:\n");
-	int ammount,sameNumbers=0;
 	int newSizeOfMass = 0;
-	scanf_s("%d", &ammount);
-	int* mass;
+	int sameNumbers = 0;
+	int ammount = 0;
 	int* mass1;
-	mass = (int*)malloc(ammount * sizeof(int));
-	printf("type numbers:\n");
-	for (int i = 0; i < ammount; i++)
-	{
-		scanf_s("%d", &mass[i]);
-	}
 	mass1 = (int*)calloc(ammount, sizeof(int));
 	for (int i = 0; i < ammount; i++)
 	{
@@ -31,8 +23,22 @@ int main()
 			newSizeOfMass = newSizeOfMass++;
 		}
 	}
-	mass1 = (int*)realloc(mass1, newSizeOfMass*sizeof(int));
+	mass1 = (int*)realloc(mass1, newSizeOfMass * sizeof(int));
 	printf("the result is\n");
 	for (int i = 0; i < newSizeOfMass; i++)
 		printf("%d ", mass1[i]);
+}
+int main()
+{
+	printf("type ammount:\n");
+	int ammount,sameNumbers=0;
+	int newSizeOfMass = 0;
+	scanf_s("%d", &ammount);
+	int* mass;
+	mass = (int*)malloc(ammount * sizeof(int));
+	printf("type numbers:\n");
+	for (int i = 0; i < ammount; i++)
+	{
+		scanf_s("%d", &mass[i]);
+	}
 }
