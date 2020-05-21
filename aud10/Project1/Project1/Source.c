@@ -5,12 +5,13 @@
 
 int main()
 {
-	FILE* F;
-	errno_t err;
-	err = fopen_s(&F, "name.txt", "w");
-	if (err != 0)
+	HANDLE MUTEX, WHAT;
+	MUTEX = CreateMutex(NULL, TRUE, "anothername");
+	DWORD err;
+	err = WaitForSingleObject(MUTEX,NULL);
+	if (err != WAIT_OBJECT_0)
 	{
-		printf("nice try, Konstantin Andreevich\n");
+		printf("hehehe, it's working! (without files!!!)\n");
 		system("PAUSE");
 		return 0;
 	}
@@ -24,6 +25,4 @@ int main()
 		wprintf(L"process name: %s\n", process32.szExeFile);
 	} while (Process32Next(hprocsnap, &process32));
 	system("PAUSE");
-	fclose(F);
-	remove("name.txt");
 }

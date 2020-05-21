@@ -1,2 +1,6 @@
 ﻿  Source.c
+C:\Users\stranger\Desktop\audits\aud10\Project1\Project1\Source.c(9,47): warning C4133: функция: несовместимые типы - из "char [12]" в "LPCWSTR"
+C:\Users\stranger\Desktop\audits\aud10\Project1\Project1\Source.c(11,38): warning C4047: функция: "DWORD" отличается по уровням косвенного обращения от "void *"
+C:\Users\stranger\Desktop\audits\aud10\Project1\Project1\Source.c(11,38): warning C4024: WaitForSingleObject: различные типы для формального и фактического параметров 2
+C:\Users\stranger\Desktop\audits\aud10\Project1\Project1\Source.c(8,16): warning C4101: WHAT: неиспользованная локальная переменная
   Project1.vcxproj -> C:\Users\stranger\Desktop\audits\aud10\Project1\Debug\Project1.exe
